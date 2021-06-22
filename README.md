@@ -92,6 +92,12 @@ import { Trans ,withTranslation } from "react-i18next";
     ```
     <EtomonTimeslotList lessonId={this.state.course.defaultLesson} sticky={true} i18n={this.props.i18n} />
     ```
+    - use this.props.t to translate
+    ```
+    const { t, i18n } = this.props;
+    t('pages.editProfile.basicinfo.photo.alert')
+    ```
+
 
 5. export component with `withTranslation` or use `props.t`
 ```
