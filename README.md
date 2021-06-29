@@ -36,6 +36,7 @@ in `search-client/src/search`, `require('@etomon/etomon-locale/jquery-inject').i
 1. change files in `/locales`
 2. run `npm run prepare` to generate files in `/outDist`. Make sure `/outDist/en.json` and `/outDist/zh.json` have the latest translation as in `/locales`.
 3. change version, push changes into [etomon-locale master branch](https://bitbucket.org/etomon/etomon-locale/branch/master) and `npm publish`.
+4. (wait for about 10 minutes), use `npm upgrade @etomon/etomon-locale` to upgrade library to the latest version.
 
 ### add translation for jQuery pages
 
